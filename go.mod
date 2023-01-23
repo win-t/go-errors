@@ -1,3 +1,3 @@
-module github.com/payfazz/go-errors/v2
+module github.com/win-t/go-errors
 
 go 1.18

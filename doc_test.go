@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/payfazz/go-errors/v2"
+	"github.com/win-t/go-errors"
 )
 
 func readFile() (string, error) {

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/payfazz/go-errors/v2"
+	"github.com/win-t/go-errors"
 )
 
 func TestFormat(t *testing.T) {

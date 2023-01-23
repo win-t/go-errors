@@ -4,7 +4,7 @@ import (
 	stderrors "errors"
 	"fmt"
 
-	"github.com/payfazz/go-errors/v2/trace"
+	"github.com/win-t/go-errors/trace"
 )
 
 // see [stdlib errors.As]

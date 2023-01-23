@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/payfazz/go-errors/v2"
-	"github.com/payfazz/go-errors/v2/trace"
+	"github.com/win-t/go-errors"
+	"github.com/win-t/go-errors/trace"
 )
 
 func funcAA(f func()) { f() }

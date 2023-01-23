@@ -3,7 +3,7 @@ package errors
 import (
 	stderrors "errors"
 
-	"github.com/payfazz/go-errors/v2/trace"
+	"github.com/win-t/go-errors/trace"
 )
 
 const traceDeep = 150

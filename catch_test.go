@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/payfazz/go-errors/v2"
+	"github.com/win-t/go-errors"
 )
 
 func TestCatch(t *testing.T) {

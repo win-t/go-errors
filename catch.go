@@ -4,7 +4,7 @@ import (
 	stderrors "errors"
 	"fmt"
 
-	"github.com/payfazz/go-errors/v2/trace"
+	"github.com/win-t/go-errors/trace"
 )
 
 // run f, if f panic or returned, that value will be returned by this function

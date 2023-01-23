@@ -73,7 +73,7 @@ func Get(skip, deep int) (locations []Location) {
 		frame, more := frames.Next()
 		if frame.Line != 0 && frame.File != "" &&
 			!inPkg(frame.Function, "runtime") &&
-			!inPkg(frame.Function, "github.com/payfazz/go-errors/v2") {
+			!inPkg(frame.Function, "github.com/win-t/go-errors") {
 			locations = append(locations, Location{
 				func_: frame.Function,
 				file:  frame.File,

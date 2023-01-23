@@ -3,7 +3,7 @@ package errors
 import (
 	"strings"
 
-	"github.com/payfazz/go-errors/v2/trace"
+	"github.com/win-t/go-errors/trace"
 )
 
 func makeOneLine(str string) string {
